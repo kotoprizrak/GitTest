@@ -11,15 +11,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.CALL">
+                <action android:name="android.intent.action.CALL">
                     android:name="android.intent.action.MAIN"
                 </action>
-
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
